@@ -1,0 +1,22 @@
+class Mobile:
+
+    def samsung(self):
+        print("Brand: Samsung")
+        print("Model: Galaxy S24")
+        print("Price: 65000")
+
+    def apple(self):
+        print("Brand: Apple")
+        print("Model: iPhone 15")
+        print("Price: 70000")
+
+
+# Creating an object
+phone = Mobile()
+
+# Calling methods using the object
+phone.samsung()
+
+print()
+
+phone.apple()
